@@ -5,11 +5,12 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import MyComponent from './mycomponent';
-
+import MainPage from './mainpage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyComponent />
+    {/* <MyComponent /> */}
+    <MainPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
