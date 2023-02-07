@@ -1,0 +1,1 @@
+In this subfolder are some mini projects that I thought were important and or interesting to pursue.
