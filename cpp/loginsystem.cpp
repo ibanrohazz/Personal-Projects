@@ -60,16 +60,18 @@ int main()
                 getline(cin, inPassword);
                 if (inName==name && inPassword==password)
                 {
-                    cout<<"Login Successful\n" <<"Welcome, "<<inName <<'\n';
+                    cout<<"Login Successful\n" << "Welcome, "<<inName <<'\n';
                     break;
                 }
                 cout<<"incorrect name or password\n"; 
             }
-
+            cout << "check1";
             //TODO now do something about the account
             system("PAUSE");
         }
         cout<<"\n\n\n\n\n"; 
     }
+    cout << "check2";
+    
     return 1;
 }
