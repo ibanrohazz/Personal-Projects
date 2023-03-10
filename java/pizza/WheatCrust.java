@@ -21,7 +21,7 @@ public class WheatCrust implements PizzaOrder {
 
     @Override
     public String toString() {
-        return "Wheat crust pizza with " + size.toString() + " crust.";
+        return "WHeat Crust Pizza: " + size + " " + totalPrice();
     }
 }
 

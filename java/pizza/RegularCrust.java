@@ -18,5 +18,10 @@ public class RegularCrust implements PizzaOrder {
     public double totalPrice() {
         return size.basePrice() + 2;
     }
+
+    @Override
+    public String toString() {
+        return "Regular Crust Pizza: " + size + " " + totalPrice();
+    }
 }
 
