@@ -1,34 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #e3f2fd;
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #e3f2fd;
 }
 
-.wrapper {
+.wrapper{
     width: 65vmin;
     height: 70vmin;
     display: flex;
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    background: #293447;
+    background: #4A752C;
     border-radius: 5px;
-    box-shadow: 0 20px 40px rgba(52,87,220, 0.2);
+    box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
 }
 
-.game-details {
-    color: #b8c6dc;
+.game-details{
+    color: #c7e7af;
     font-weight: 500;
     font-size: 1.2rem;
     padding: 20px 27px;
@@ -36,53 +36,53 @@ body {
     justify-content: space-between;
 }
 
-.play-board {
+.play-board{
     height: 100%;
     width: 100%;
     display: grid;
-    background: #212837;
-    grid-template-columns: repeat(30, 1fr) / repeat(30, 1fr);
+    background: #708363;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 
-.play-board .food {
-    background: #f7b733;
+.play-board .food{
+    background: #E7471D;
 }
 
-.play-board .head {
-    background: #60cbff;
+.play-board .head{
+    background: #4775EA;
 }
 
-.controls {
+.controls{
     display: none;
     justify-content: space-between;
 }
 
-.controls i {
+.controls i{
     padding: 25px 0;
     text-align: center;
     font-size: 1.3rem;
     color: #b8c6dc;
     width: calc(100% / 4);
     cursor: pointer;
-     border-right: 1px solid #171b26;
+    border-right: 1px solid #171b26;
 }
 
-@media screen and (max0width: 800px) {
-    .wrapper {
+@media screen and (max-width: 800px) {
+    .wrapper{
         width: 90vmin;
         height: 115vmin;
     }
 
-    .game-details {
-        padding: 15px 27px;
+    .game-details{
         font-size: 1rem;
+        padding: 15px 27px;
     }
 
-    .controls {
+    .controls{
         display: flex;
     }
 
-    .controls i {
+    .controls i{
         padding: 15px 0;
         font-size: 1rem;
     }
