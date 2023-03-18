@@ -25,7 +25,7 @@ const updateFoodPosition = () => {
 
 const handleGameOver = () => {
     clearInterval(setIntervalId);
-    alert("Game Over! Press OK to replay...");
+    alert("Imagine Loosing");
     location.reload();
 }
 
@@ -71,7 +71,7 @@ const initGame = () => {
     snakeX += velocityX;
     snakeY += velocityY;
 
-    // Shifthing forward values of elements in snake body by one
+    // Shifting forward values of elements in snake body by one
 
     for (let i = snakeBody.length - 1; i > 0; i--) {
         snakeBody[i] = snakeBody[i - 1];
