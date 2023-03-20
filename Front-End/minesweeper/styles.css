@@ -12,7 +12,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #AAD751;
+    background: #b4b4b4;
 }
 
 .wrapper{
@@ -22,55 +22,39 @@ body{
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    background: #4A752C;
+    background: #C0C0C0;
     border-radius: 5px;
-    box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+    box-shadow: 0 20px 40px rgba(61, 61, 61, 0.2);
 }
 
 .game-details{
-    color: #c7e7af;
+    color: #000000;
     font-weight: 500;
     font-size: 1.2rem;
     padding: 20px 27px;
     display: flex;
     justify-content: space-between;
+    border-style: inset solid;
+    border-width: 10px;
+    border-color: #80808080;
 }
 
-.play-board{
+.board{
     height: 100%;
     width: 100%;
     display: grid;
-    background: #708363;
-    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+    background: #C0C0C0;
+    grid-template: repeat(100, 1fr) / repeat(100, 1fr);
+    border-style: inset;
+    border-width: 10px;
+    border-color: #80808080;
 }
 
-.play-board .food{
-    background: #E7471D;
-}
 
-.play-board .head{
-    background: #5180F3;
-}
-
-.controls{
-    display: none;
-    justify-content: space-between;
-}
-
-.controls i{
-    padding: 25px 0;
-    text-align: center;
-    font-size: 1.3rem;
-    color: #b8c6dc;
-    width: calc(100% / 4);
-    cursor: pointer;
-    border-right: 1px solid #171b26;
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px){
     .wrapper{
         width: 90vmin;
-        height: 115vmin;
+        height: 90vmin;
     }
 
     .game-details{
@@ -78,12 +62,6 @@ body{
         padding: 15px 27px;
     }
 
-    .controls{
-        display: flex;
-    }
-
-    .controls i{
-        padding: 15px 0;
-        font-size: 1rem;
-    }
+    
 }
+
