@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+  
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+  background-color: #dbdbdb;
+  font-weight: bold;
+}
+  
+/* Header styles */
+  
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: #fff;
+}
+  
+.header h1 {
+  font-size: 36px;
+}
+  
+.header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+  
+/* Navigation styles */
+  
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #444;
+  color: #fff;
+}
+  
+nav ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+  
+nav li {
+  margin-right: 20px;
+}
+  
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+  
+/* Main content styles */
+  
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+  
+.sidebar {
+  width: 25%;
+  padding: 20px;
+  background-color: #e5e5e5;
+}
+  
+.sidebar h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+  
+.sidebar ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+  
+.sidebar li {
+  margin-bottom: 10px;
+}
+  
+.sidebar a {
+  color: #f5a623;
+  text-decoration: none;
+}
+  
+.content {
+  width: 75%;
+  padding: 20px;
+  background-color: #fff;
+}
+  
+.content h2 {
+  margin-bottom: 20px;
+  color: #f5a623;
+}
+  
+.content p {
+  margin-bottom: 20px;
+}
+  
+.content a {
+  color: #444;
+  text-decoration: underline;
+}
+  
+/* Footer */
+footer {
+  background-color: #dbdbdb;
+  color: #000000;
+  font-size: 14px;
+  line-height: 50px;
+  padding: 0 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
