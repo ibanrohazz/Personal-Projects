@@ -73,7 +73,81 @@ nav a {
   color: #fff;
   text-decoration: none;
 }
-  
+
+/* animations 
+
+nav {
+  position: relative;
+  margin: 270px autoo 0;
+  width: 590px;
+  height: 50px;
+  background: #34495e;
+  border-radius: 8px;
+  font-size: 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  line-height: 50px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  text-align: center;
+}
+
+nav .animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f5a623;
+  border-radius: 8px;
+  z-index: 0;
+  transition: all 0.5s ease;
+}
+
+nav a:nth-child(1) {
+  width: 100px;
+}
+
+nav .start-home, a:nth-child(1):hover ~ .animation {
+  width: 100px;
+  left: 0;
+}
+
+nav a:nth-child(2) {
+  width: 100px;
+}
+
+nav a:nth-child(2):hover ~ .animation {
+  width: 110px;
+  left: 100px;
+}
+
+nav a:nth-child(3) {
+  width: 100px;
+}
+
+nav a:nth-child(3):hover ~ .animation {
+  width: 110px;
+  left: 210px;
+}
+
+nav a:nth-child(4) {
+  width: 100px;
+}
+
+nav a:nth-child(4):hover ~ .animation {
+  width: 110px;
+  left: 320px;
+} */
+
+
 /* Main content styles */
   
 main {
