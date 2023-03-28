@@ -4,7 +4,7 @@ class MainPage extends Component{
     constructor(props){
         super(props);
         this.state={data: "",
-                // input: "", //For capturing user input
+                input: "", //For capturing user input
                 showModal: false,
                 testMessage: "",
                 summary: ""}
@@ -36,21 +36,31 @@ class MainPage extends Component{
         else {
             return ( 
                 <div className='TaskList'>
-                    <h1>List of tasks</h1>
+                    {/* display the data in table format  */}
                     <table>
                         <thead>
                             <tr>
-                                <th>Name</th>
+                                <th>Task Name</th>
                                 <th>Task</th>
-                                <th>Status</th>
+                                <th>Task Status</th>
+                                {/* <th>Completed</th> */}
                             </tr>
                         </thead>
                         <tbody>
+                            {this.state.data.map((task) => (
+                                <tr key={task.task_id}>
+                                    <td>{task.task_name}</td>
+                                    <td>{task.task}</td>
+                                    <td>task.task_status</td>
+                                    {/* <td>{task.due_date}</td>
+                                    <td>{task.priority}</td>
+                                    <td>{task.completed}</td> */}
+                                </tr>
+                            ))}
                         </tbody>
                     </table>
-                    {this.state.data}
-                </div>
-            )
+            </div>
+            );
         }
     }
 }
