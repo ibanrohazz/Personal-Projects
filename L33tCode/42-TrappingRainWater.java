@@ -1,6 +1,6 @@
 class Solution {
     public int trap(int[] height) {
-        // given n non-negative integers repersenting an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+        // given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
         // 1. find the highest bar
         // 2. from left to right, find the highest bar on the left of the current bar
         // 3. from right to left, find the highest bar on the right of the current bar
