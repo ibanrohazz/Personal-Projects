@@ -22,7 +22,7 @@ body{
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    background: #4A752C;
+    background: #7C926C;
     border-radius: 5px;
     box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
 }
@@ -40,7 +40,7 @@ body{
     height: 100%;
     width: 100%;
     display: grid;
-    background: #708363;
+    background: #B4BEAE;
     grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 
