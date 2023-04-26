@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "ChessBoardModel/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/ChessBoardModel.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ChessBoardModel.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "ChessBoardModel/1.0.0": {
-      "type": "project",
-      "path": "../ChessBoardModel/ChessBoardModel.csproj",
-      "msbuildProject": "../ChessBoardModel/ChessBoardModel.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "ChessBoardModel >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\mroja\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mroja\\RIT\\Personal-Projects\\Chess\\Chess\\Chess.csproj",
-      "projectName": "Chess",
-      "projectPath": "C:\\Users\\mroja\\RIT\\Personal-Projects\\Chess\\Chess\\Chess.csproj",
+      "projectUniqueName": "C:\\Users\\mroja\\RIT\\Personal-Projects\\Chess\\ChessBoardModel\\ChessBoardModel.csproj",
+      "projectName": "ChessBoardModel",
+      "projectPath": "C:\\Users\\mroja\\RIT\\Personal-Projects\\Chess\\ChessBoardModel\\ChessBoardModel.csproj",
       "packagesPath": "C:\\Users\\mroja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mroja\\RIT\\Personal-Projects\\Chess\\Chess\\obj\\",
+      "outputPath": "C:\\Users\\mroja\\RIT\\Personal-Projects\\Chess\\ChessBoardModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,11 +39,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\mroja\\RIT\\Personal-Projects\\Chess\\ChessBoardModel\\ChessBoardModel.csproj": {
-              "projectPath": "C:\\Users\\mroja\\RIT\\Personal-Projects\\Chess\\ChessBoardModel\\ChessBoardModel.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

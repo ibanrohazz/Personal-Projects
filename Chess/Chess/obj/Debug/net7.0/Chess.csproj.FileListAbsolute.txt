@@ -13,3 +13,6 @@ C:\Users\mroja\RIT\Personal-Projects\Chess\Chess\obj\Debug\net7.0\refint\Chess.d
 C:\Users\mroja\RIT\Personal-Projects\Chess\Chess\obj\Debug\net7.0\Chess.pdb
 C:\Users\mroja\RIT\Personal-Projects\Chess\Chess\obj\Debug\net7.0\Chess.genruntimeconfig.cache
 C:\Users\mroja\RIT\Personal-Projects\Chess\Chess\obj\Debug\net7.0\ref\Chess.dll
+C:\Users\mroja\RIT\Personal-Projects\Chess\Chess\bin\Debug\net7.0\ChessBoardModel.dll
+C:\Users\mroja\RIT\Personal-Projects\Chess\Chess\bin\Debug\net7.0\ChessBoardModel.pdb
+C:\Users\mroja\RIT\Personal-Projects\Chess\Chess\obj\Debug\net7.0\Chess.csproj.CopyComplete

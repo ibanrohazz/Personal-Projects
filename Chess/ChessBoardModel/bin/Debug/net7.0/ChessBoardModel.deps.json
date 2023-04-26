@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "Chess/1.0.0": {
-        "dependencies": {
-          "ChessBoardModel": "1.0.0"
-        },
-        "runtime": {
-          "Chess.dll": {}
-        }
-      },
       "ChessBoardModel/1.0.0": {
         "runtime": {
           "ChessBoardModel.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "Chess/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "ChessBoardModel/1.0.0": {
       "type": "project",
       "serviceable": false,
