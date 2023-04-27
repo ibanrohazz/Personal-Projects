@@ -19,8 +19,19 @@ namespace Chess
             Cell cell = setCurrentCell();
             cell.CurrentlyOccupied = true;
 
+            // ask the user for the type of piece default is Knight
+            string piece = "Knight";
+            try
+            {
+                Console.WriteLine("Enter the type of piece \n Knight | Bishop | Rook | King | Queen");
+                piece = Console.ReadLine();
+            } catch (Exception e)
+            {
+                Console.WriteLine("Invalid input");
+            }
+
             // calculate all the legal moves for that piece
-            myBoard.MarkNextLegalMoves( cell, "Queen" );
+            myBoard.MarkNextLegalMoves( cell, piece );
 
             // print the chess board with the legal moves marked, X is the piece, + is a legal move, . is an empty cell
             printBoard( myBoard );
