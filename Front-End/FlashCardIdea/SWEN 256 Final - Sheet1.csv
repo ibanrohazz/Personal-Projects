@@ -1,0 +1,183 @@
+Term, Definition;
+Project work,Has a beginning and end. Has unique goals and objectives.
+Operational work,Most ongoing work. Business as usual.
+Upstream vs. downstream,Activities done early on are upstream. Activities done later on are downstream. Doing well upstream will provide a much easier float downstream.
+Functional organizational structure,Grouped by specialization. Team members have departmental and project work.
+Projectized organizational structure,Staff are moved from project to project.
+Matrix organizational structure,Two bosses: a project boss and a functional boss.
+The project triangle,Scope. Cost. Schedule.
+Good. Fast. Cheap. Pick Two.,
+Project dimensions,People. Process. Product. Technology.
+Project management,"Planning, organizing, motivating, and controlling resources to achieved defined goals."
+People classic mistakes,Undermined motivation. Heroics. Adding people to a late project.
+Process classic mistakes,Overly optimistic schedules. Insufficient risk management. Insufficient planning.
+Product classic mistakes,Requirements gold-plating. Feature creep. Developer gold-plating.
+Technology classic mistakes,Silver-bullet syndrome (wanting to try new technology). Switching tools in the middle of a project. Overestimated savings from new technologies.
+Purpose of the four pillars,To achieve the best possible schedule.
+Four pillars,Avoid classic mistakes. Apply development fundamentals. Manage risk. Apply schedule-oriented practices.
+Thrashing vs. process,"If process is injected early, there will be less thrashing and more productive work."
+Cone of uncertainty,Beginning of project: -50% to +100%. End of project: +25% to +50%.
+Individual needs,"Physiological, safety, social, esteem, self-actualization."
+Team needs,"Trust, managed conflict, commitment, accountability, results."
+How to achieve commitment,Buy-in to everything.
+How to keep track of accountability,Use a RA(S)CI chart.
+What does RA(S)CI stand for,"Responsible, accountable, support, consulted, informed."
+Tuckman's model,"Forming, storming, norming, performing."
+Conflict resolution techniques,"Confronting, compromising, withdrawal, smoothing."
+What is a risk?,A problem that has not happened yet.
+Two processes that make up risk management,Risk assessment and risk control.
+What makes up risk assessment,"Identification, analysis, prioritization."
+What makes up risk control,"Planning, resolution, monitoring."
+Risk Exposure,Probability * Impact
+Who invented PSP/TSP,Watts Humphrey
+7 steps of TSP,"Launch, strategy, plan, requirements, design, implementation, test, postmortem."
+What does each cycle of TSP produce?,A testable version that is a subset of the final project.
+Phases of RUP,"Inception, elaboration, construction, transition."
+Blowhard Jamboree,One team member is vocal about his misinformed opinions and these become treated as facts.
+Analysis Paralysis,Problem broken down too far. Leads to micromanagement.
+Avalanche Model,All steps in the process model are going on at the same time.
+Loose Cannon / Corncob,One team member who is particularly destructive.
+Intellectual Violence,A know-it-all.
+Fire drill,Project moving slowly and unrealistic deadline is set.
+Blame storming,Everybody blames each other.
+Death march,Everybody knows the project is going to fail except the man in charge.
+Groupthink,Nobody is questioning what the group is doing.
+Benefits of code and fix,No overhead. Requires very little expertise.
+Disadvantages of code and fix,No means of assessing progress or quality.
+What is spiral?,Risk-oriented lifecycle model that breaks software up into miniprojects. Each miniproject addresses one or more major risks until all major risks have been addressed.
+Benefits of spiral,"As costs increase, risks decrease."
+Disadvantages of spiral,It is complicated. Difficult to define verifiable milestones.
+What is evolutionary prototyping?,Lifecycle model in which you develop the system concept as you move through the project.
+Benefits of evolutionary prototyping,"Produces steady, visible signs of progress. Good for when you don't know what you're building."
+Disadvantages of evolutionary,Can become an excuse to do code-and-fix development.
+What is staged delivery?,Lifecycle model in which you show software to customer in successively refined stages. Waterfall model followed for each individual stage.
+Benefits of staged delivery,Allows you to deliver the most important functionality the earliest.
+Disadvantages of staged delivery,Difficult to make stages meaningful for the customer. Difficult if stages rely on one another.
+Characteristics of plan-driven,"Systematic engineering approach, completeness of documentation, thorough verification by means of traceability"
+Examples of plan-driven,"PSP, TSP, RUP, cleanroom"
+Characteristics of agile,"Short iterative cycles, incremental delivery, evolutionary artifacts, customer involvement"
+Examples of agile,"XP, crystal, scrum, feature-driven development"
+Individuals and interaction over ___,process and tools
+Working software over ___,comprehensive documentation
+Customer collaboration over ___,contract negotiation
+Responding to change over ___,following a plan
+Highest priority of agile,Satisfy the customer through early and continuous
+delivery of valuable software,
+Challenges of plan-driven,"Lightweight apps with heavyweight process, document intensive, less flexible design, one-shot delivery"
+Testing in agile,Done early and often rather than once at the end
+Planning & estimation in agile is based on,User stories
+Size of scrum team,5-9 people
+Product owner responsibilities,"Accountable for product success, defines all product features, ensures team is working on highest priority features"
+Scrum master responsibilities,"Holds daily 15 minutes meeting, removes obstacles, maintains sprint burndown chart, facilitates rather than manages"
+Product backlog,List of product features
+Sprint backlog,To-do list for the sprint
+Burndown chart,Shows work left to be done in a sprint calculated by hours remaining
+Maximum length of a task in scrum,16 hours
+Two biggest problems with scrum,Teams not self-managing. Scrum master managing instead of leading.
+Three questions of daily scrum meeting,What have you done since last meeting? What will you do next? What obstacles are in your way?
+Story points,"A way of estimating effort required for a feature, on scale of 1-10"
+Velocity,Rate at which team converts items to done in a single sprint
+Velocity calculation,Sum of story points completed per iteration
+Agile spectrum,"Scrum, crystal, XP, DSDM, feature-driven"
+Plan-driven spectrum,"TSP, RUP, SW-CMM, PSP, Cleanroom, Inch-pebble"
+Three steps of basic estimation,"Size, effort, schedule"
+Target vs. committed dates,"Target is proposed by business people, committed is what team agrees to"
+Estimation methodologies,"Expert judgement, top-down, bottom-up, analogy, priced to win, algorithmic method"
+Expert judgement,Estimate provided by expert. Accuracy depends on level of expertise
+Disadvantages of bottom-up estimation,"Specific activities not always known, time-consuming"
+Estimation by analogy,Using a past project to make an estimation. Difficult to compare projects.
+Algorithmic measures,LOC and/or function points
+Wideband Delphi,Estimation made by group consensus
+LOC disadvantages,Varies too much by programming language and style
+Function points,Software estimation by number and complexity of functions it performs
+Problem with code reuse,Integration effort reused code is almost the same as new code
+Agile development estimation process,"User stories broken up into small engineering tasks, all tasks get added up for the final estimation"
+COCOMO,Constructive cost model. Uses regression formula with parameters derived from historical projects and current project
+Input to COCOMO,LOC
+Output of COCOMO,Staff-months
+Downside of COCOMO,Still uses LOC as its input
+Ways of presenting an estimation,"Plus/minus quantifiers, ranges, risk quantification, best/worse cases, confidence factors"
+Parkinson's Law,Work expands to fill the time available
+Dangers of over-estimation,"Feature creep, Parkinson's Law, double padding of estimates"
+Dangers of under-estimation,Quality issues and lowered team morale
+Categories of function points,"Outputs, inputs, db inquiries, files/data structures, interfaces"
+Function point process step 1,Count number of business functions per category
+Function point process step 2,"Establish complexity factor (low, medium, high) and set weighted multiplier (0-15) for each"
+Function point process step 3,Compute an influence multiplier and apply (based on 14 factors)
+COCOMO Effort-Applied equation,"E = a(KLOC)^b, where a and b are constants"
+Three modes of COCOMO that constants come from,"Organic, semi-detached, embedded"
+COCOMO Development-Time equation,"TDEV = c(E)^d, where E is staff months"
+COCOMO Average-Staff equation,Effort applied / development time
+COCOMO Productivity equation,KLOC / staff-months
+Biggest limitation of COCOMO,Doesn't work if you can't determine the size
+Purpose of the cost driver in COCOMO,Adjust effort required based on value that doesn't depend on size
+PEST,"Plan, estimate, schedule, track"
+Four basic tasks of scheduling,"What needs to be done, how much needs to be done, calculate dependencies, estimate duration of work"
+WBS (Work Breakdown Structure),Lists major project outputs and who is responsible for what
+Three types of WBS,"Process, product, hybrid"
+Process WBS,Activity-oriented
+Product WBS,Entity-oriented
+Work packages (tasks),Generic term for discrete tasks with definable end results
+One-to-two rule,1 to 2 persons for 1 to 2 weeks
+4/40 rule,Shortest/longest duration
+Rolling wave WBS technique,Add detail to WBS in waves
+Gantt chart,Microsoft Project
+Precedence (network) diagram,"Looks like a DFA, shows dependencies and durations"
+Critical path,What is the longest path?
+Slack time calculation,Latest finish - earliest finish
+Fast tracking,Work critical path activities in parallel
+PERT,(most optimistic time + 4 * most likely time + most pessimistic time) / 6
+Calculate earned value of a task,Total project man hours / estimated man hours for task
+Three principles of quality,"Software requirements, engineering standards, implicit requirements"
+"Relationship between errors, defects, faults, failures",Errors -> defects -> faults -> failures
+Verification,Are we building the product right?
+Validation,Are we building the right product?
+The V Model,Plan and develop tests to go along with each activity in the life cycle to ensure V&V
+Two goals of QA,Few defects remain. Remaining defects will cause minimal disruption
+Defect prevention,Remove the root causes of defects to prevent them from occurring
+Defect reduction,Detect and remove defects
+Defect containment,Contain defects from causing huge problems by means of fault tolerance
+Fault tolerance,"Ensuring the system can still run after a fault occurs. Exception handling, recovery blocks"
+Measure,Provides a quantitative indication of the size of some product or process attribute
+Measurement,The act of obtaining a measure
+Metric,"A quantitative measure of the degree to which a system, component, or process possesses a given attribute"
+Categories of metrics,"Product, process, project"
+Metrics should be used to evaluate the performance of individuals (True or False),FALSE
+Dynamic metrics,Collected by measurements made of a program in execution
+Static metrics,Collected by measurements made of the system representations
+Process metrics,Enable organization to make strategic changes to improve the software process
+Product metrics,Enable organization to improve product quality
+Project metrics,Enable organization to adapt project workflow and mitigate risks
+Baseline metrics,"Data collected from a large, representative sampling of past software projects"
+Direct measures,"Measures of cost and effort. Measures of LOC, execution speed, memory size, defects, etc."
+Indirect measures,"Measures that examine the quality of the software product itself (functionality, complexity, reliability, maintainability, etc.)"
+Fan-in metric,Measure of the number of functions that call a function X
+Fan-out metric,Measure of the number of functions which are called by function X
+CCB,Change Control Board
+Lehman's Laws,"Continuing change, increasing complexity, large program evolution, organizational stability, conservation of familiarity"
+Types of maintenance,"Corrective, adaptive, perfective"
+Corrective maintenance,Changing a system to correct deficiencies to better meet its requirements
+Adaptive maintenance,Changing a system so that it operates in a different environment from its initial implementation
+Perfective maintenance,Changing a system to add or modify its functionality to satisfy new requirements
+Most common type of maintenance,Perfective
+Spiral maintenance model,"Specification, implementation, validation, operation"
+Higher development costs lead to __,Lower maintenance costs
+Maintenance cost factors,"Team stability, nature of development contract, staff skills, degraded system structure"
+Predicting the number of changes requires an understanding of __,The relationships between the system and its environment
+Architectural evolution,Concerned with evolving centralized to distributed architectures
+Parts of a communication,"Sender, receiver, channel/noise"
+Number of communication channels,N(N-1)/2 where N is the number of people
+Bottom left box of Power vs. Interest,Monitor
+Bottom right box of Power vs. Interest,Keep informed
+Top left box of Power vs. Interest,Keep satisfied
+Top right box of Power vs. Interest,Manage closely
+X axis of Power vs. Interest,Interest
+CMM Process Maturity Model,"Initial, repeatable, defined, managed, optimizing"
+Initial Level,Essentially uncontrolled
+Repeatable Level,Product management procedures defined and used
+Defined Level,Process management procedures and strategies defined and used
+Managed Level,Quality management strategies defined and used
+Optimizing Level,Process improvement strategies defined and used
+Maturity model,The principles and practices underlying software process maturity
+CMM,Capability Maturity Model
+Key Process Area (KPA),A cluster of related activities that achieve a set of goals important for enhancing process capability

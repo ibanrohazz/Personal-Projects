@@ -1,0 +1,23 @@
+body{
+    background-color: #35363A;
+    color: #ddd;
+    font-family: courier;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    /* height: 100vh; */
+    overflow: auto;
+    /* overflow: hidden; */
+}
+
+.main {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+iframe {
+    width: 300%;
+    height: 300%;
+    overflow: auto;
+    background-color: #35363A;
+}
